@@ -1,2 +1,2 @@
 # Scraping
-Scraping Amazon bestsellers (early 2019)
+Scraping using bs4 module in Python 3.7
