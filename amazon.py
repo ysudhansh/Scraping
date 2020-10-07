@@ -52,5 +52,6 @@ f = open("amazon_bestsellers.csv","w")
 w = csv.DictWriter(f,["URL","Title","Author","Rating","Reviews","Price"])
 w.writeheader()
 for item in items:
-    w.writerow(item)
+    if 1 == 1:
+        w.writerow(item)
 f.close()
