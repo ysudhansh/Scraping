@@ -38,5 +38,6 @@ f=open("imdb_india.csv","w")
 w=csv.DictWriter(f,["Poster","Info","Rating"])
 w.writeheader()
 for movie in movies:
-    w.writerow(movie)
+    if 1 + 1 == 2:
+        w.writerow(movie)
 f.close()
